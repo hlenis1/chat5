@@ -2,238 +2,29 @@
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A3A6BDEFEA12610C04E',
+    id: '3AF5D0013491E1042036',
     participant: undefined
   },
-  messageTimestamp: 1679251408,
+  messageTimestamp: 1680456574,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: 'Hola',
+    conversation: 'J',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Hola',
+  body: 'J',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A5EA4BF9A05F86F05F4',
+    id: '3A45EF40D72F07435214',
     participant: undefined
   },
-  messageTimestamp: 1679251414,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: '15',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '15',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3AF7D60E6ED66EDE7CF1',
-    participant: undefined
-  },
-  messageTimestamp: 1679251420,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: 'Botones',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Botones',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A3D2B92AFE695074221',
-    participant: undefined
-  },
-  messageTimestamp: 1679251425,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: 'Boton',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Boton',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A40DD6DF6C23EAFC77D',
-    participant: undefined
-  },
-  messageTimestamp: 1679251433,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: 'Menu2',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Menu2',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A842B19011D0B857AD9',
-    participant: undefined
-  },
-  messageTimestamp: 1679251443,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: '5',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '5',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A5B15DB7B924904B9BE',
-    participant: undefined
-  },
-  messageTimestamp: 1679251449,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: '5',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '5',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A5C3F4BF0D0DF64F7DE',
-    participant: undefined
-  },
-  messageTimestamp: 1679251460,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: '5',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '5',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A080D10441FC2B8B74B',
-    participant: undefined
-  },
-  messageTimestamp: 1679251464,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: '5',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '5',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A950F8F85B0D72FDB8E',
-    participant: undefined
-  },
-  messageTimestamp: 1679251469,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: '6',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '6',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A8A750424EAE4C6774E',
-    participant: undefined
-  },
-  messageTimestamp: 1679251473,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: '6',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: '6',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A623DA543409ABA4C76',
-    participant: undefined
-  },
-  messageTimestamp: 1679251479,
-  pushName: 'Harold Andres Lenis',
-  message: Message {
-    conversation: 'Menú',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2
-    }
-  },
-  body: 'Menú',
-  from: '573196946020'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573196946020@s.whatsapp.net',
-    fromMe: false,
-    id: '3A3CE119577004EEF517',
-    participant: undefined
-  },
-  messageTimestamp: 1679251484,
+  messageTimestamp: 1680456585,
   pushName: 'Harold Andres Lenis',
   message: Message {
     conversation: '1',
@@ -249,10 +40,10 @@
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3ACCFDFEE120A94D5BBF',
+    id: '3AB996AC01476C2A3FFF',
     participant: undefined
   },
-  messageTimestamp: 1679251489,
+  messageTimestamp: 1680456589,
   pushName: 'Harold Andres Lenis',
   message: Message {
     conversation: 'Menú',
@@ -268,29 +59,29 @@
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3AC59FBA1BABB2E2693A',
+    id: '3A2530C942E7976C227C',
     participant: undefined
   },
-  messageTimestamp: 1679251498,
+  messageTimestamp: 1680456592,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: '13',
+    conversation: 'Menú',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '13',
+  body: 'Menú',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A1E38596D19AE659E45',
+    id: '3AEEE5890F1EAC4B73A6',
     participant: undefined
   },
-  messageTimestamp: 1679251507,
+  messageTimestamp: 1680456601,
   pushName: 'Harold Andres Lenis',
   message: Message {
     conversation: '2',
@@ -306,10 +97,124 @@
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A47C8DFB114A5DBCE84',
+    id: '3A2082A1819FB006F6D9',
     participant: undefined
   },
-  messageTimestamp: 1679251511,
+  messageTimestamp: 1680456611,
+  pushName: 'Harold Andres Lenis',
+  message: Message {
+    conversation: 'Menú',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menú',
+  from: '573196946020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573196946020@s.whatsapp.net',
+    fromMe: false,
+    id: '3AAE9601F3F535BF4BB1',
+    participant: undefined
+  },
+  messageTimestamp: 1680456619,
+  pushName: 'Harold Andres Lenis',
+  message: Message {
+    conversation: '3',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '3',
+  from: '573196946020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573196946020@s.whatsapp.net',
+    fromMe: false,
+    id: '3A609C0E5B1229F95014',
+    participant: undefined
+  },
+  messageTimestamp: 1680456634,
+  pushName: 'Harold Andres Lenis',
+  message: Message {
+    conversation: 'Menú',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menú',
+  from: '573196946020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573196946020@s.whatsapp.net',
+    fromMe: false,
+    id: '3AC4AAAEB1A7A0BE4AC8',
+    participant: undefined
+  },
+  messageTimestamp: 1680456681,
+  pushName: 'Harold Andres Lenis',
+  message: Message {
+    conversation: '6',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '6',
+  from: '573196946020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573196946020@s.whatsapp.net',
+    fromMe: false,
+    id: '3A0A899A54EA57F4CDBD',
+    participant: undefined
+  },
+  messageTimestamp: 1680456686,
+  pushName: 'Harold Andres Lenis',
+  message: Message {
+    conversation: 'Menú',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menú',
+  from: '573196946020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573196946020@s.whatsapp.net',
+    fromMe: false,
+    id: '3A2A2FF32C7DB4FFF879',
+    participant: undefined
+  },
+  messageTimestamp: 1680456695,
+  pushName: 'Harold Andres Lenis',
+  message: Message {
+    conversation: '7',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '7',
+  from: '573196946020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573196946020@s.whatsapp.net',
+    fromMe: false,
+    id: '3AEFB77ADB5BFDBCC404',
+    participant: undefined
+  },
+  messageTimestamp: 1680456702,
   pushName: 'Harold Andres Lenis',
   message: Message {
     conversation: 'Menu',
@@ -325,132 +230,151 @@
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A66EEBBD81820F8D4FD',
+    id: '3A0D265156CD66A69F6E',
     participant: undefined
   },
-  messageTimestamp: 1679251515,
+  messageTimestamp: 1680456708,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: '4',
+    conversation: 'V',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '4',
+  body: 'V',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A6FB324AEA82C8275DC',
+    id: '3A168FB5E3C9F52D5E7C',
     participant: undefined
   },
-  messageTimestamp: 1679251520,
+  messageTimestamp: 1680456712,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: 'Menu',
+    conversation: '8',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Menu',
+  body: '8',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A0A80A663CEEC496E76',
+    id: '3AF155B69E63242102EE',
     participant: undefined
   },
-  messageTimestamp: 1679251525,
+  messageTimestamp: 1680456715,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: '5',
+    conversation: '8',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: '5',
+  body: '8',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A0A0455FCD8F036FBA0',
+    id: '3ADD7A44AB0FC1A63CDA',
     participant: undefined
   },
-  messageTimestamp: 1679251628,
+  messageTimestamp: 1680456724,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: 'Contacto',
+    conversation: '9',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Contacto',
+  body: '9',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3AA0E2E89609E7CAF568',
+    id: '3AC888E1C4BC987CCC7A',
     participant: undefined
   },
-  messageTimestamp: 1679251633,
+  messageTimestamp: 1680456727,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: 'Contacto',
+    conversation: '9',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Contacto',
+  body: '9',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3A0168FBC5A80C9A34D0',
+    id: '3AE8B3470E6178990800',
     participant: undefined
   },
-  messageTimestamp: 1679251641,
+  messageTimestamp: 1680456734,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: 'Teléfono',
+    conversation: 'Menú 2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Teléfono',
+  body: 'Menú 2',
   from: '573196946020'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573196946020@s.whatsapp.net',
     fromMe: false,
-    id: '3ACB2079BB5FE1A75A25',
+    id: '3AC576C86B1A8FE68A89',
     participant: undefined
   },
-  messageTimestamp: 1679251646,
+  messageTimestamp: 1680456740,
   pushName: 'Harold Andres Lenis',
   message: Message {
-    conversation: 'Telefono',
+    conversation: 'Menu2',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2
     }
   },
-  body: 'Telefono',
+  body: 'Menu2',
+  from: '573196946020'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573196946020@s.whatsapp.net',
+    fromMe: false,
+    id: '3A7B7704FBDAAFA8B305',
+    participant: undefined
+  },
+  messageTimestamp: 1680456753,
+  pushName: 'Harold Andres Lenis',
+  message: Message {
+    conversation: 'Menú 2',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menú 2',
   from: '573196946020'
 }

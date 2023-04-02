@@ -7,9 +7,10 @@ const MockAdapter = require('@bot-whatsapp/database/mock')// base de datos
 const flowSecundario = addKeyword(['2', 'siguiente']).addAnswer(['📄 Aquí tenemos el flujo secundario'])
 
 
-const flowString = addKeyword('9','imagen').addAnswer('Este es nuestro kit', {
+const flowString = addKeyword('9','imagen').addAnswer('Este es nuestro kit Presiona menu para regresar',{
     // media: './components/img/kit.webp',
     media: 'https://bolidotransport.com/chatbot/kit.jpeg',
+
 })
 
 
@@ -23,7 +24,7 @@ const flowBotones = addKeyword('15').addAnswer('Menu 2', {
 const flowTuto = addKeyword(['4']).addAnswer(
     [
         '🙌 Esta es nuestra pagina web :',
-        'https://play.google.com/store/apps/details?id=com.bolido',
+        'https://www.facebook.com/profile.php?id=100090737749336',
 
         'Presiona menu para regresar',
        
@@ -32,6 +33,21 @@ const flowTuto = addKeyword(['4']).addAnswer(
     null,
 
 )
+
+const flowCon = addKeyword(['5']).addAnswer(
+    [
+        '⏱ horario de 9 - 5 pm :',
+        '📲 +57 305 9027487',
+
+        'Presiona menu para regresar',
+       
+    ],
+    null,
+    null,
+
+)
+
+
 
 const flowSalir = addKeyword(['6', 'salir']).addAnswer(
     [
@@ -46,11 +62,39 @@ const flowSalir = addKeyword(['6', 'salir']).addAnswer(
    
 )
 
+const flowSedes = addKeyword(['7']).addAnswer(
+    [
+        '🏛 Estas son nuestras sedes :',
+        'Cali : AV 5A Norte # 23DN - 57 Edif. Top Center Businnes',
+        'Jamundi : Colegio bilingual tesla via proyerito frente club carvajar',
+        'Jamundi : Clases personalizadas',
+
+        'Presiona menu para regresar',
+       
+    ],
+    null,
+    null,
+
+)
+const flowVideos = addKeyword(['8']).addAnswer(
+    [
+        '🦾🤖👍 Unpoco de nosotros mira el video 🎬:',
+       
+        'https://drive.google.com/file/d/1jI44l9aampiKp4G52W4dZ5zyZV7aDZHH/view?usp=sharing',
+
+        'Presiona menu para regresar',
+       
+    ],
+    null,
+    null,
+
+)
+
 
 
 const flowCompleto = addKeyword(['13']).addAnswer(
     [
-        'Gracias por registrate en un plazo de 48 horas',
+        '🙌 👏 Gracias por registrate en un plazo de 48 horas',
         'te contactaremos para el resultado de tu estudio',
         'Un asesor te contactara pronto ',
 
@@ -71,7 +115,7 @@ const flowSomos = addKeyword(['3']).addAnswer(
     [
 
 
-        'Cursos ofertados : ',
+        '📗📘📙📔 Cursos ofertados : ',
         'Curso de robótica de circuitos',
         'Curso de robótica lego mindstorms ',
         'Curso personalizado (en tu vivienda) de robótica lego mindstorms ',
@@ -81,7 +125,7 @@ const flowSomos = addKeyword(['3']).addAnswer(
         'Valor cada modulo : 260.000',
         
 
-        'Modulo 1',
+        '📗 Modulo 1',
         'Introducción robótica aplicada:',
         'comprender los conceptos necesarios de la robótica para comprender ',
         'el lenguaje técnico de las maquinas.',  
@@ -89,16 +133,22 @@ const flowSomos = addKeyword(['3']).addAnswer(
         'Diseña prototipos modelar en 3D donde podrás simular el comportamiento ',
         'del robot construido y personalizar tu propios modelos para luego construirlos',
 
-        'Modulo 2',
+        '📘 Modulo 2',
         'Programación de motores:',
 
         'Programa  la interacción de los impulsos del motor, puedes programarlos',
         'por grados, pulgadas, rotaciones, segundos.', 
 
+        '📙 Modulo 3',
         'Direccionamiento:',
+
+        '📔 Modulo 4',
+        'Programacion avanzada:',
 
         'Programa la interacción del robot usando lenguajes de ',
         'programación en entorno ensamblado ',
+
+        'Escribe menu para regresar ',
        
        
         
@@ -134,11 +184,13 @@ const flowMenu = addKeyword(['1','registro']).addAnswer(
 )
 
 const flowContacto = addKeyword(['2']).addAnswer(
-    ['💪 El Kit de robotica :', 
+    ['💪 El Kit de Robótica :', 
 
-    'El kit de robótica tiene un costo de 200.000 mil pesos ',
+    'El kit de robótica tiene un costo de 250.000 mil pesos ',
     'Este incluye las herramientas necesarias para el desarrollo',
     'del curso con éxito',
+
+    'Los kits de Robótica pueden estar sujetos a cambios',
 
     'Escribe Menu para resgresar',
     
@@ -168,20 +220,18 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'como estas','buen dia',
             '4 👉 Nuestra pagina web',
             '5 👉 Contactos ',
             '6 👉 Salir ',
+            '7 👉 Sedes ',
+            '8 👉 Videos ',
             '9 👉 kit robotica ',
-            'escriba 👉 menu 2',
+           
 
            
         ],
         null,
         null,
-        [ flowSalir, flowTuto, flowMenu,flowSomos,flowContacto,flujoContacto1,flowString,flowBotones]
+        [ flowSalir, flowTuto, flowMenu,flowSomos,flowContacto,flowString,flowBotones,flowCon,flowSedes,flowVideos]
     )
 // en esta zona he creado otro flujo llamadon flujoContacto
-    const flujoContacto1 = addKeyword(['5','contacto',' dame_tu_numero','telefono'])
-    .addAnswer('3506567191 (solo whatsapp)')
-    .addAnswer('Se te ofrece algo mas') // con esto mando otro mensaje
-    .addAnswer(['Se te ofrece algo mas','Presiona 10 para ingresar al menu o 5 para finalizar']) // respuesta con salto de linea
 
 
     // {
@@ -190,7 +240,7 @@ const flowPrincipal = addKeyword(['hola', 'ole', 'alo', 'como estas','buen dia',
 
 const main = async () => {
     const adapterDB = new MockAdapter()
-    const adapterFlow = createFlow([flowPrincipal,flujoContacto])//en esta zona pongo mis flujos
+    const adapterFlow = createFlow([flowPrincipal])//en esta zona pongo mis flujos
     const adapterProvider = createProvider(BaileysProvider)
 
     createBot({
